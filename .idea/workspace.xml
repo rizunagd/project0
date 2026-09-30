@@ -4,18 +4,39 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af902d68-a765-4355-afb2-f542fd34cfed" name="Changes" comment="" />
+    <list default="true" id="af902d68-a765-4355-afb2-f542fd34cfed" name="Changes" comment="добавлен UseCase.plantuml">
+      <change afterPath="$PROJECT_DIR$/docs/UseCase.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/user_registration_algoritm.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;rizunagd&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/rizunagd/project0.git&quot;,
+    &quot;accountId&quot;: &quot;77a3c4f5-61a7-4964-8850-9ce38df576ad&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="3K39M6djE2BnZogYkRgLwYdfenA" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -24,9 +45,12 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main"
+    "git-widget-placeholder": "test-branch",
+    "last_opened_file_path": "C:/Users/rizun/PycharmProjects/PythonProject/docs",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="SharedIndexes">
@@ -44,17 +68,37 @@
       <option name="presentableId" value="Default" />
       <updated>1790775337630</updated>
     </task>
+    <task id="LOCAL-00001" summary="Добавлен вывод тестовой ветки">
+      <option name="closed" value="true" />
+      <created>1790776465955</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1790776465955</updated>
+    </task>
+    <task id="LOCAL-00002" summary="изменен код">
+      <option name="closed" value="true" />
+      <created>1790778551797</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1790778551797</updated>
+    </task>
+    <task id="LOCAL-00003" summary="добавлен UseCase.plantuml">
+      <option name="closed" value="true" />
+      <created>1790780930856</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1790780930856</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>8</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Добавлен вывод тестовой ветки" />
+    <MESSAGE value="изменен код" />
+    <MESSAGE value="добавлен UseCase.plantuml" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавлен UseCase.plantuml" />
   </component>
 </project>
