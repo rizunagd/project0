@@ -16,15 +16,15 @@ package "Система" {
     usecase "Написать квитанцию" as UC_Write
     usecase "Просмотреть данные о потреблении ресурсов" as UC_Check_Resources
 }
-User0 --> UC_Register
-User --> UC_Login
-UC_Login --> UC_Logout
-User --> UC_Logout
-UC_Login --> UC_Check_history
-UC_Login --> UC_Send
-UC_Login --> UC_Request
-Admin --> UC_Write
-Admin --> UC_Check_history
-Admin --> UC_Update
-Admin0 --> UC_Check_Resources
+User0 -- UC_Register
+User -- UC_Login
+UC_Login -- UC_Logout
+User -- UC_Logout
+UC_Login -- UC_Check_history
+UC_Login -- UC_Send
+UC_Login -- UC_Request
+Admin -- UC_Write
+Admin -- UC_Check_history
+Admin -- UC_Update
+Admin0 -- UC_Check_Resources
 @enduml
