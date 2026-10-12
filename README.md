@@ -23,11 +23,12 @@
 - База данных
 
 # Диаграмы
+
 ## UseCase
-![usecase](docs/UseCase.png)
+![a1](docs/UseCase.png)
 
 ## Регистрация
-![алгоритм регистрации пользователя](docs/user_registration_algoritm.png)
+![a2](docs/user_registration_algoritm.png)
 
-## Личный кабинет
-![алгоритм личного кабинета](docs/personal_account_algoritm.png)
+## Личный Кабинет
+![a3](docs/personal_account_algoritm.png)
