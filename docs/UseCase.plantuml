@@ -1,12 +1,10 @@
 @startuml
 left to right direction
 skinparam packageStyle rectangle
-actor "Новый пользователь" as User0
 actor "Зарегистрированный пользователь" as User
 actor "Администратор ресурсоснабжающей компании" as Admin0
 actor "Администратор управляющей компании" as Admin
 package "Система" {
-    usecase "Зарегистрироваться" as UC_Register
     usecase "Войти в систему" as UC_Login
     usecase "Выйти из системы" as UC_Logout
     usecase "Просмотреть историю квитанций" as UC_Check_history
@@ -16,10 +14,8 @@ package "Система" {
     usecase "Написать квитанцию" as UC_Write
     usecase "Просмотреть данные о потреблении ресурсов" as UC_Check_Resources
 }
-User0 -- UC_Register
 User -- UC_Login
 UC_Login -- UC_Logout
-User -- UC_Logout
 UC_Login -- UC_Check_history
 UC_Login -- UC_Send
 UC_Login -- UC_Request

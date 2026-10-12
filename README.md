@@ -21,3 +21,7 @@
 - Сервисный слой
 - Слой доступа к данным
 - База данных
+
+# Диаграмы
+![usecase](docs/UseCase.png)
+![алгоритм регистрации пользователя](docs/user_registration_algoritm.png)
