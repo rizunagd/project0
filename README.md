@@ -21,3 +21,14 @@
 - Сервисный слой
 - Слой доступа к данным
 - База данных
+
+# Диаграмы
+
+## UseCase
+![a1](docs/UseCase.png)
+
+## Регистрация
+![a2](docs/user_registration_algoritm.png)
+
+## Личный Кабинет
+![a3](docs/personal_account_algoritm.png)
