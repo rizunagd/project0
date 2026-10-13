@@ -32,3 +32,6 @@
 
 ## Личный Кабинет
 ![a3](docs/personal_account_algoritm.png)
+
+## База данных
+![a4](diagrams/er_diagram.png)
