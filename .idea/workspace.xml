@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af902d68-a765-4355-afb2-f542fd34cfed" name="Changes" comment="исправлены диаграмы, настроен gitignore, добавлены изображения диаграм в readme, подписи">
+    <list default="true" id="af902d68-a765-4355-afb2-f542fd34cfed" name="Changes" comment="обновлена документация">
+      <change afterPath="$PROJECT_DIR$/database/schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/diagrams/er_diagram.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,19 +45,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;test-branch&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/rizun/PycharmProjects/PythonProject/docs&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "test-branch",
+    "last_opened_file_path": "C:/Users/rizun/PycharmProjects/PythonProject/database",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\rizun\PycharmProjects\PythonProject\database" />
+      <recent name="C:\Users\rizun\PycharmProjects\PythonProject\diagrams" />
       <recent name="C:\Users\rizun\PycharmProjects\PythonProject\docs" />
     </key>
   </component>
@@ -131,7 +134,15 @@
       <option name="project" value="LOCAL" />
       <updated>1791789160166</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="обновлена документация">
+      <option name="closed" value="true" />
+      <created>1791789567694</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1791789567694</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -153,6 +164,7 @@
     <MESSAGE value="добавлен .gitignore" />
     <MESSAGE value="исправлены диаграмы, настроен gitignore, добавлены изображения диаграм в readme" />
     <MESSAGE value="исправлены диаграмы, настроен gitignore, добавлены изображения диаграм в readme, подписи" />
-    <option name="LAST_COMMIT_MESSAGE" value="исправлены диаграмы, настроен gitignore, добавлены изображения диаграм в readme, подписи" />
+    <MESSAGE value="обновлена документация" />
+    <option name="LAST_COMMIT_MESSAGE" value="обновлена документация" />
   </component>
 </project>
