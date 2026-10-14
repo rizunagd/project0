@@ -6,7 +6,7 @@ actor "Администратор ресурсоснабжающей компа�
 actor "Администратор управляющей компании" as Admin
 package "Система" {
     usecase "Войти в систему" as UC_Login
-    usecase "Выйти из системы" as UC_Logout
+    usecase "Зарегистрироваться" as UC_Register
     usecase "Просмотреть историю квитанций" as UC_Check_history
     usecase "Передать показания счетчиков" as UC_Send
     usecase "Запросить перерасчет платы" as UC_Request
@@ -15,7 +15,8 @@ package "Система" {
     usecase "Просмотреть данные о потреблении ресурсов" as UC_Check_Resources
 }
 User -- UC_Login
-UC_Login -- UC_Logout
+User -- UC_Register
+UC_Register -- UC_Login
 UC_Login -- UC_Check_history
 UC_Login -- UC_Send
 UC_Login -- UC_Request
