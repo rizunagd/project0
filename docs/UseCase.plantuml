@@ -1,7 +1,7 @@
 @startuml
 left to right direction
 skinparam packageStyle rectangle
-actor "Зарегистрированный пользователь" as User
+actor "Пользователь" as User
 actor "Администратор ресурсоснабжающей компании" as Admin0
 actor "Администратор управляющей компании" as Admin
 package "Система" {
